@@ -7,6 +7,11 @@ h1 {
     font-size: 2.5rem;
 }
 
+h1, h2, h3, h4, h5
+ {
+  font-family: Copperplate, Papyrus, fantasy;
+}
+
 section {
    width: 100%;
 }
@@ -31,10 +36,37 @@ p {
     font-size: 1.25rem;
 }
 
-ul {
+ul li {
     font-size: 1.25rem;
 }
 
-ul li {
+ul {
     margin-bottom: 1rem;
+}
+ul li:nth-child(3), 
+h2 {
+  border: 4px dotted blue;
+}
+h1, h2, h3, h4 {border-color: coral;}
+
+
+div.bg-color {
+    background-color: yellow; 
+}
+
+div.bg-color.padding {
+    padding: 2em; 
+}
+
+div.bg-color.amrgin {
+    margin: 2em; 
+}
+
+{
+ background-image: url("paper.gif");
+ background-color: #cccccc;
+}
+
+img.inline{
+    width: 100%; 
 }
